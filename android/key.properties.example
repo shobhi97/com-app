@@ -1,0 +1,8 @@
+# Copy this file to android/key.properties (git-ignored) and fill in your
+# real release keystore details, OR configure the equivalent values as
+# Codemagic encrypted environment variables / a code-signing identity
+# (see README "Codemagic setup").
+storePassword=your-keystore-password
+keyPassword=your-key-password
+keyAlias=tickbell
+storeFile=/absolute/path/to/tickbell-release.jks
